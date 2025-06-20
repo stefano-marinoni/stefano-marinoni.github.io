@@ -1,5 +1,12 @@
-# Ciao!
+---
+layout: default
+title: Home
+---
 
-## Ciao 2
+# Benvenuto nel mio blog
 
-Questo è il sito stefano-marinoni GitHub Pages con Jekyll.
+Qui pubblico articoli e note su sviluppo, progetti personali e idee.
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) <small>({{ post.date | date: "%d/%m/%Y" }})</small>
+{% endfor %}

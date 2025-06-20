@@ -1,1 +1,20 @@
-theme: minima
+title: Stefano Marinoni
+description: Il mio blog personale su sviluppo e tecnologia
+author: Stefano Marinoni
+email: stefano@example.com
+baseurl: ""
+url: "https://stefano-marinoni.github.io"
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+permalink: /:year/:month/:title/
+collections:
+  posts:
+    output: true
+social:
+  github: https://github.com/stefano-marinoni
+  linkedin: https://linkedin.com/in/stefano-marinoni
