@@ -1,6 +1,8 @@
 ---
-title: Welcome to Quartz
+title: Welcome to Novten Quartz
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# Welcome to Novten Quartz
+
+## Heading 2
+### Heading 3
